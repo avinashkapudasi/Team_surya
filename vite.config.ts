@@ -7,4 +7,13 @@ export default defineConfig({
   optimizeDeps: {
     exclude: ['lucide-react'],
   },
+  build: {
+    assetsInlineLimit: 0, // Prevent inlining small assets
+    rollupOptions: {
+      input: {
+        main: 'index.html', // Ensure entry points are defined
+      },
+      preserveEntrySignatures: 'strict', // Preserve unused assets
+    },
+  },
 });

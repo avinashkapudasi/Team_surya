@@ -40,7 +40,7 @@ const Navbar = ({ isScrolled }: NavbarProps) => {
         {/* Logo */}
         <NavLink to="/" className="flex items-center gap-2 z-10">
           {/* <Flower className="h-8 w-8 text-primary-500" /> */}
-          <img src="logo.png" alt="Team Surya Logo" className="h-10 w-10" />
+          <img src="/logo.png" alt="Team Surya Logo" className="h-10 w-10" />
           <span className="text-2xl font-display font-bold text-accent-500">
             Team <span className="text-primary-500">Surya</span>
           </span>
