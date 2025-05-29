@@ -13,6 +13,7 @@ import {
 import SectionHeading from '../components/common/SectionHeading';
 import Button from '../components/common/Button';
 
+
 const ContactPage = () => {
   useEffect(() => {
     document.title = 'Contact Us | Team Surya';
@@ -335,7 +336,7 @@ const ContactPage = () => {
                 <div className="flex items-center">
                   <div className="h-12 w-12 rounded-full overflow-hidden mr-4">
                     <img 
-                      src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                      src="public/CEO.jpg" 
                       alt="Surya Dharanish Perumalla" 
                       className="h-full w-full object-cover"
                     />
