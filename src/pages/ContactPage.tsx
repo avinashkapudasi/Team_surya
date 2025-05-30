@@ -272,7 +272,7 @@ const ContactPage = () => {
                     <div>
                       <h3 className="text-lg font-medium text-accent-800 mb-1">Office Location</h3>
                       <p className="text-gray-600">
-                        Hyderabad, Telangana, India
+                        Andhra Pradesh, Telangana, India
                       </p>
                     </div>
                   </div>
@@ -351,22 +351,7 @@ const ContactPage = () => {
         </div>
       </section>
 
-      {/* Map section (placeholder) */}
-      <section className="py-20 bg-gray-50">
-        <div className="container mx-auto px-4">
-          <SectionHeading 
-            title="Find Us" 
-            subtitle="Our office is conveniently located in Hyderabad, serving clients throughout India."
-          />
-          
-          <div className="h-96 bg-gray-200 rounded-xl overflow-hidden relative">
-            {/* This would be replaced with an actual map integration */}
-            <div className="absolute inset-0 flex items-center justify-center">
-              <p className="text-gray-500 text-lg">Map integration would be added here</p>
-            </div>
-          </div>
-        </div>
-      </section>
+      
     </>
   );
 };

@@ -108,7 +108,7 @@ const ServicesPage = () => {
       title: 'Traditional Favors',
       description: 'Curated gift selections featuring artisanal and traditional items that reflect Indian culture and heritage.',
       icon: <Gift className="h-10 w-10 text-primary-500" />,
-      image: 'https://images.pexels.com/photos/6896217/pexels-photo-6896217.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2',
+      image: '/favours.jpg',
       features: [
         'Customized wedding favors',
         'Traditional gift baskets',

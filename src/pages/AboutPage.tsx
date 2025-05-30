@@ -149,7 +149,7 @@ const AboutPage = () => {
             >
               <div className="relative z-10 rounded-lg overflow-hidden shadow-xl">
                 <img 
-                  src="https://images.pexels.com/photos/2182970/pexels-photo-2182970.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                  src="/CEO.jpg" 
                   alt="Surya Dharanish Perumalla - CEO" 
                   className="w-full h-auto"
                 />
