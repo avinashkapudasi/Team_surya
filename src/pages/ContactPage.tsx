@@ -11,7 +11,7 @@ import {
   Send 
 } from 'lucide-react';
 import SectionHeading from '../components/common/SectionHeading';
-import Button from '../components/common/Button';
+// import Button from '../components/common/Button';
 
 
 const ContactPage = () => {
@@ -216,13 +216,12 @@ const ContactPage = () => {
                   </div>
                   
                   <div>
-                    <Button 
-                      type="submit" 
-                      size="lg" 
-                      className="w-full justify-center"
+                    <button
+                      type="submit"
+                      className="w-full justify-center px-6 py-3 rounded-lg bg-primary-600 text-white font-semibold text-lg hover:bg-primary-700 transition-colors"
                     >
                       Send Message
-                    </Button>
+                    </button>
                   </div>
                 </form>
               )}
@@ -336,7 +335,7 @@ const ContactPage = () => {
                 <div className="flex items-center">
                   <div className="h-12 w-12 rounded-full overflow-hidden mr-4">
                     <img 
-                      src="public/CEO.jpg" 
+                      src="/CEO.jpg" 
                       alt="Surya Dharanish Perumalla" 
                       className="h-full w-full object-cover"
                     />

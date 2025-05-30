@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { Flower, Phone, Mail, MapPin, Instagram, Facebook, Youtube } from 'lucide-react';
+import {  Phone, Mail, MapPin, Instagram, Facebook, Youtube } from 'lucide-react';
 
 const Footer = () => {
   return (
@@ -9,7 +9,11 @@ const Footer = () => {
           {/* Company Info */}
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <Flower className="h-8 w-8 text-primary-500" />
+               <img 
+                src="/logo.png" 
+                alt="Logo" 
+                className="h-20 w-20"
+                />
               <span className="text-2xl font-display font-bold">
                 Team <span className="text-primary-500">Surya</span>
               </span>
